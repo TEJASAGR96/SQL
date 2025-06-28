@@ -1,10 +1,10 @@
-# 📊 Sales and Revenue Analysis Using SQL
+ Sales and Revenue Analysis Using SQL
 
 This project uses **PostgreSQL** to analyze sales and revenue performance across different products, categories, time periods, and regions. It answers key business questions using **SQL queries** involving `GROUP BY`, `JOIN`,and **window functions**  `ROW_NUMBER()`.
 
 ---
 
-## 🎯 Objectives
+ Objectives
 
 - Analyze trends in monthly revenue
 - Compare regional revenue performance
@@ -12,7 +12,7 @@ This project uses **PostgreSQL** to analyze sales and revenue performance across
 
 ---
 
-## 🗃️ Datasets Used
+ Datasets Used
 
 - `sales_data.csv` – Transaction-level data (quantity, price, date, product, region)
 - `sales_products.csv` – Product catalog with category
@@ -20,48 +20,47 @@ This project uses **PostgreSQL** to analyze sales and revenue performance across
 
 ---
 
-## 🔍 Key Analysis Performed
+Key Analysis Performed
 
-### 📅 Monthly Revenue  
+ Monthly Revenue  
 Analyze revenue trends over time.
 
-### 🏆 Top 10 Products by Revenue  
+ Top 10 Products by Revenue  
 Identify the highest-grossing products.
 
-### 🌍 Regional Revenue Comparison  
+ Regional Revenue Comparison  
 Compare sales performance across regions.
 
-### 🏪 Best Region per Product  
+ Best Region per Product  
 Find which region performs best for each product.
 
-### 📉 Underperforming Products  
+ Underperforming Products  
 Spot products with low sales volume.
 
-### 🔁 Repeat Sales of Products  
+ Repeat Sales of Products  
 Analyze how frequently each product is sold.
 
-### 📆 Day of Week Sales Analysis  
+Day of Week Sales Analysis  
 Discover which day of the week sees the most sales.
 
-### ⏱️ Sales Velocity (Revenue per Day)  
+ Sales Velocity (Revenue per Day)  
 Track how fast revenue is generated over time.
 
-### 📂 Category-wise Revenue Comparison  
+ Category-wise Revenue Comparison  
 Understand which product categories contribute most to revenue.
 
 ---
 
-## 🧠 SQL Concepts Used
+ SQL Concepts Used
 
 - `JOIN` and `GROUP BY`
 - `DATE_TRUNC()` for time-based analysis
-- Common Table Expressions (CTEs)
 - Window Functions: `ROW_NUMBER()`
 - Aggregate Functions: `SUM()`, `AVG()`, `COUNT()`
 
 ---
 
-## 🖥️ Tools & Environment
+ Tools & Environment
 
 - **PostgreSQL**
 - **pgAdmin 4**
@@ -70,16 +69,16 @@ Understand which product categories contribute most to revenue.
 
 ---
 
-## ✅ Project Outcomes
+ Project Outcomes
 
-- 📈 Data-driven understanding of sales trends
-- 🏆 Identification of high-performing products and regions
-- 📉 Detection of declining and underperforming items
-- 📊 Actionable insights to support business decision-making
+-  Data-driven understanding of sales trends
+-  Identification of high-performing products and regions
+-  Detection of declining and underperforming items
+-  Actionable insights to support business decision-making
 
 ---
 
-## 📂 Files Included
+##  Files Included
 
 - `sales_data.csv`
 - `sales_products.csv`
@@ -89,7 +88,7 @@ Understand which product categories contribute most to revenue.
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Tejas Agrawal**  
 Aspiring Data Analyst | SQL
